@@ -2,42 +2,53 @@
 <html>
   <head>
     <title>We're Broadway!</title>
-    <link href="resources/css/style.css" type="text/css" rel="stylesheet">
+    <link href="resources/css/style.css" rel="stylesheet">
   </head>
   <body>
-    <div id="header">
+    <div class="hero">
       <h1>Broadway Design</h1>
-
-      <p class="link"><a href="#main-title">Home</a><br /><a href="#about">About</a><br /><a href="#work">Work</a><br /><a href="#team">Team</a><br /><a href="#contact">Contact</a></p>
+      <p><a class="btn-nav" href="#">Home</a></p>
+      <p><a class="btn-nav" href="#about">About</a></p>
+      <p><a class="btn-nav" href="#work">Work</a></p>
+      <p><a class="btn-nav" href="#team">Team</a></p>
+      <p><a class="btn-nav" href="#contact">Contact</a></p>
     </div>
 
     <div>
       <h2 id="about">Our Process</h2>
-      <p><img src="resources/icons/identify.svg" /></p>
+      <p class="intro"><img src="resources/icons/identify.svg" /></p>
       <h3>Identify</h3>
-      <p>We focus on the most important details.</p>
+      <p class="intro">We focus on the most important details.</p>
       <p><img src="resources/icons/understand.svg" /></p>
       <h3>Understand</h3>
-      <p>We study our projects inside and out.</p>
+      <p class="intro">We study our projects inside and out.</p>
       <p><img src="resources/icons/execute.svg" /></p>
       <h3>Execute</h3>
-      <p>We put everything we have into our work.</p>
+      <p class="intro">We put everything we have into our work.</p>
+    </div>
+
+    <div class="hero">
+      <h3>Designed in New York</h3>
     </div>
 
     <div>
-      <h3 class="white">Designed in New York</h3>
       <h3 id="work">Portfolio</h3>
-      <p>Coming Soon</p>
+      <p class="intro">Coming Soon</p>
       <h3 id="team">Team</h3>
-      <p>We're Hiring!</p>
+      <p class="intro">We're Hiring!</p>
       <h3 id="contact">Contact</h3>
-      <p>Phone:(555)-555-5555<br />E-mail: test@example.com<br />Twitter: @test</p>
+      <p class="intro">Phone:(555)-555-5555<br />E-mail: test@example.com<br />Twitter: @test</p>
     </div>
 
-    <div>
-      <p class="footer">©️Broadway 2016  <a href="#main-title">Home</a> <a href="#about">About</a> <a href="#work">Work</a> <a href="#team">Team</a> <a href="#contact">Contact</a></p>
+    <div class="footer">
+      <p>
+        &copy; Broadway 2016
+        <a class="btn-nav" href="#">Home</a>
+        <a class="btn-nav" href="#about">About</a>
+        <a class="btn-nav" href="#work">Work</a>
+        <a class="btn-nav" href="#team">Team</a>
+        <a class="btn-nav" href="#contact">Contact</a>
+      </p>
     </div>
-
-
   </body>
 </html>
